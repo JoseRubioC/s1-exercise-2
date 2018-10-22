@@ -1,16 +1,61 @@
 body {
   font-family: sans-serif;
+  margin: 0;
 }
 
-.main-container {
-  width: 960px;
-  margin: 0 auto;
-}
-
-header {
+.header {
   text-align: center;
+  padding: 1em 0;
+  background: rgba(214, 55, 55, 0.96);
 }
 
 h1 {
   font-family: serif;
+}
+
+main {
+  padding: 2em;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: 100%;
+  position: relative;
+  background: rgba(214, 55, 55, 0.96);
+}
+
+.company-name {
+  margin: 1em;
+  padding: 2em;
+}
+
+.social-media {
+  margin: 0 auto;
+}
+
+.icons-media {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.icons-media > li {
+  float: left;
+  padding-right: 1em;
+}
+
+ul.icons-media a {
+  background-color: white;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+.cookies-container {
+  position: fixed;
 }
