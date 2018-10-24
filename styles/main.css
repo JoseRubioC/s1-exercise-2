@@ -14,15 +14,9 @@ h1 {
   font-family: serif;
 }
 
-a{
-  color: ;
-}
-
 a:hover {
   color: rgba(214, 55, 55, 0.50);
 }
-
-
 
 main {
   padding: 2em;
@@ -67,11 +61,30 @@ ul.icons-media a {
   height: 2em;
   border-radius: 50%;
   padding: 1em;
-  color: black;
 }
 
-ul.icons-media a:hover {
-  color: rgba(214, 55, 55, 0.50);
+.color-facebook a{
+  color: #3b5998;
+}
+
+.color-twitter a{
+  color: #326ada;
+}
+
+.color-instagram a{
+  color: #d62976;
+}
+
+.color-facebook a:hover {
+  color: rgba(59,89,152,0.50);
+}
+
+.color-twitter a:hover {
+  color: rgba(50,106,218,0.50);
+}
+
+.color-instagram a:hover {
+  color: rgba(214,41,118,0.50);
 }
 
 ul.icons-media a:visited {
